@@ -13,7 +13,7 @@ OUTPUT_JSON = "results.json"
 SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.bmp', '.tiff')
 SCAN_DELAY = 10  
 
-# Set Tesseract path (Windows)
+# Set Tesseract path 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def preprocess_image(image):
