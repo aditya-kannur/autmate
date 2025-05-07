@@ -1,51 +1,30 @@
 [
-    [
-        "Write a program to Initialize an array of size 6 and print the",
-        "count of only prime elements in an array.",
-        "",
-        "‘Sample Input:",
-        "",
-        "234561",
-        "",
-        "‘Sample Gutput:",
-        "",
-        "3",
-        "",
-        "Explanation:",
-        "",
-        "The prime numbers present in an array are 2,3 and 5. So, the",
-        "output is 3"
-    ],
-    [
-        "=>\" “ . wen in =\" i - @,",
-        "i i QR. im 6S",
-        "\\e ~ & | 390 re | l aie ] j 79 Wf oy 7 v ee :",
-        "ie nae 3 - ve 4",
-        "is ' 4 Ls “oer RVR ebbit il ° x at MSwalicw Oe ¥ ¥",
-        ". we, | “7140 Fe ; aso if, 1690 no Wes -",
-        "iy Spa!) 2 ON\" EPeacocke 7 Ge; .7",
-        "(@ | —or hf eeu, Soe | 3 Mh",
-        "3 a: A] wy vy Ried vo | ae kg",
-        "3 “4 r “ae Ly i an ae mee,",
-        "Guest8776521 ion fk DaRet ~",
-        "version207112731700 zs While watching, you need 50 chip COINS to play"
-    ],
-    [
-        "_———4 ” wa see) _———4 : @,",
-        "i i Ee. im 6S ee",
-        "en pe « &",
-        "» ; 530 1540] a , Mm 650 “12890 | = .",
-        "| \\g | Se &",
-        ": / 740 430m 540 . 640",
-        "RA (ey : | “SP Swallow l- Gus e",
-        "3 TT anda as yrencone oe fw @",
-        "——— | «> a i",
-        "(@ [ my, BD va] ip | Riel w9 aks a oo",
-        "— ii. -~ . ons ~ i rn 7 Aa <a ke, pe ‘es ~",
-        "~ WaLChiinGs Lea",
-        "—_ he Nps oa ek o& ~",
-        "Guest8776521 BasRet",
-        "Or While watching, you need 50 chip COINS to play",
-        "version:202112231200, $$$"
-    ]
+    {
+        "filename": "screenshot_20250507_143645.png",
+        "timestamp": "2025-05-07 14:37:23",
+        "found_keywords": [],
+        "text": "image) :\n\non(np.array(image), cv2.COLOR_RGB2GRAY)\npreshold(gray, @, 255, cv2.THRESH_BINARY + cv2. THRESH\n(1, 1), np.uints)\n\norphologyEx(thresh, cv2.MORPH_OPEN, kernel)\n\narray (processed)\n\nrcent(image) :\n\nnage. size\n\nn* @.3)\n\nnt * 8.3)"
+    },
+    {
+        "filename": "screenshot_20250507_143655.png",
+        "timestamp": "2025-05-07 14:37:23",
+        "found_keywords": [
+            "panda"
+        ],
+        "text": "fs anda ~ ~\n, ' ‘<"
+    },
+    {
+        "filename": "screenshot_20250507_143705.png",
+        "timestamp": "2025-05-07 14:37:23",
+        "found_keywords": [
+            "panda"
+        ],
+        "text": "fs anda ~ ~\n, ' ‘<"
+    },
+    {
+        "filename": "screenshot_20250507_143715.png",
+        "timestamp": "2025-05-07 14:37:24",
+        "found_keywords": [],
+        "text": "intie-Visum | @ improved OCR screens. Be Screensh"
+    }
 ]
