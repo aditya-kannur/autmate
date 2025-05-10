@@ -1,14 +1,11 @@
-
 from PIL import ImageGrab
 import os
-import time
 from datetime import datetime
+import shutil
 
-# Configuration
 IMAGE_FOLDER = "../images_to_scan"
-SCAN_DELAY = 10 
+RESULT_FILE = "result.txt"
 
-# Ensure the image folder exists
 os.makedirs(IMAGE_FOLDER, exist_ok=True)
 
 def take_screenshot_and_save():
@@ -17,17 +14,11 @@ def take_screenshot_and_save():
     filename = f"screenshot_{timestamp}.png"
     filepath = os.path.join(IMAGE_FOLDER, filename)
     screenshot.save(filepath)
-    print(f"[{timestamp}] Saved screenshot: {filename}")
-    return filename, filepath
+    print(f"[+] Screenshot saved: {filename}")
 
-def run_periodic_screenshots():
-    print(f"Taking screenshots every {SCAN_DELAY} seconds.\nPress Ctrl+C to stop.\n")
-    try:
-        while True:
-            take_screenshot_and_save()
-            time.sleep(SCAN_DELAY)
-    except KeyboardInterrupt:
-        print("\nStopped by user.")
-
-if __name__ == "__main__":
-    run_periodic_screenshots()
+def clean_image_folder():
+    for f in os.listdir(IMAGE_FOLDER):
+        os.remove(os.path.join(IMAGE_FOLDER, f))
+    if os.path.exists(RESULT_FILE):
+        os.remove(RESULT_FILE)
+    print("🧹 Clean start: Image folder and result.txt cleared.")
